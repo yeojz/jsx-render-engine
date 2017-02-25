@@ -1,0 +1,74 @@
+{
+  "name": "jsx-render-engine",
+  "version": "0.0.0",
+  "description": "A metalsmith plugin to render files using ReactJS based templates",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production babel src --out-dir lib",
+    "build-library": "npm run clean && npm run build",
+    "clean": "rimraf lib coverage .nyc_output",
+    "coverage": "cross-env NODE_ENV=test nyc report --reporter=lcov",
+    "coveralls": "cross-env NODE_ENV=test nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint --ext js src tests",
+    "test": "NODE_PATH=./ cross-env NODE_ENV=test nyc --reporter=text-summary mocha 'tests/**/*.spec.@(js|jsx)'",
+    "test:watch": "NODE_PATH=./ npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeojz/jsx-render-engine.git"
+  },
+  "keywords": [
+    "template",
+    "engine",
+    "view",
+    "jsx",
+    "react",
+    "reactjs",
+    "preact",
+    "react-router",
+    "server-side-rendering",
+    "generator"
+  ],
+  "author": "Gerald Yeo <contact@fusedthought.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/yeojz/jsx-render-engine/issues"
+  },
+  "homepage": "https://github.com/yeojz/jsx-render-engine",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.22.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "cross-env": "^3.1.4",
+    "eslint": "^3.13.1",
+    "eslint-plugin-react": "^6.9.0",
+    "metalsmith": "^2.3.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2",
+    "preact": "^7.2.0",
+    "preact-compat": "^3.13.1",
+    "preact-render-to-string": "^3.6.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "react-router": "^3.0.2",
+    "rimraf": "^2.5.4"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^4.17.4"
+  },
+  "peerDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.11.1"
+  }
+}
