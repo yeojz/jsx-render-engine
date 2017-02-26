@@ -9,7 +9,7 @@ test:
   pre:
     - npm run clean
   override:
-    - npm run test
+    - npm run test && npm run coveralls
     - npm run lint
 deployment:
   release:
