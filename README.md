@@ -50,5 +50,5 @@ MIT [`License`](/LICENSE) © Gerald Yeo
 [npm-badge]: https://img.shields.io/npm/v/jsx-render-engine.svg?style=flat-square
 [npm-link]: https://www.npmjs.com/package/jsx-render-engine.svg
 
-[build-badge]: https://img.shields.io/circleci/project/github/yeojz/jsx-render-engine.svg.svg?style=flat-square
+[build-badge]: https://img.shields.io/circleci/project/github/yeojz/jsx-render-engine.svg?style=flat-square
 [build-link]: https://circleci.com/gh/yeojz/jsx-render-engine.svg
