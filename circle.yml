@@ -17,7 +17,7 @@ deployment:
     owner: yeojz
     commands:
       - npm run clean
-      - npm run build-library
+      - npm run build
       - echo -e "$NPM_USER\n$NPM_PASS\n$NPM_EMAIL" | npm login
       - npm publish
       - npm logout
