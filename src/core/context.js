@@ -1,7 +1,9 @@
-import path from 'path';
-
 function metadata() {
   return {}
+}
+
+function path(directory, template) {
+  return `${directory}/${template}`;
 }
 
 export default {

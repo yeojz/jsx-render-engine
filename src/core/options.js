@@ -11,7 +11,7 @@ export default {
   preserve: false,
   props: null,
   strategy: null,
-  templateKey: 'rtemplate',
+  templateKey: 'template',
   templateTag: null,
 
   // Engine

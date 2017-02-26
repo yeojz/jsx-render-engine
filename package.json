@@ -1,7 +1,7 @@
 {
   "name": "jsx-render-engine",
   "version": "0.0.0",
-  "description": "A metalsmith plugin to render files using ReactJS based templates",
+  "description": "A pluggable jsx library agnostic render engine",
   "main": "lib/index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production babel src --out-dir lib",
