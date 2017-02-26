@@ -1,8 +1,7 @@
-# jsx-render-engine
+# jsx-render-engine [![npm package][npm-badge]][npm-link]
 A pluggable jsx library agnostic render engine. (react, preact, react-router etc.)
 
 [![Build Status][build-badge]][build-link]
-[![Coverage Status][coveralls-badge]][coveralls-link]
 
 ## About
 `jsx-render-engine` is a an in-place object manipulation engine to transform object content using a JSX library as template.
@@ -42,7 +41,7 @@ export default {
 
 ## Related Project
 
-The was originally used in [metalsmith-react-templates](https://github.com/yeojz/metalsmith-react-templates)
+This engine is used in [metalsmith-react-templates](https://github.com/yeojz/metalsmith-react-templates)
 
 ## License
 
