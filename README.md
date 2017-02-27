@@ -1,4 +1,6 @@
 # jsx-render-engine [![npm package][npm-badge]][npm-link]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/yeojz/jsx-render-engine.svg)](https://greenkeeper.io/)
 A pluggable jsx library agnostic render engine. (react, preact, react-router etc.)
 
 [![Build Status][build-badge]][build-link]
