@@ -53,7 +53,7 @@
     "metalsmith": "^2.3.0",
     "mocha": "^3.2.0",
     "nyc": "^10.1.2",
-    "preact": "^7.2.0",
+    "preact": "^8.1.0",
     "preact-compat": "^3.13.1",
     "preact-render-to-string": "^3.6.0",
     "react": "^15.0.0",
