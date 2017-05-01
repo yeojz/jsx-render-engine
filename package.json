@@ -54,7 +54,7 @@
     "mocha": "^3.2.0",
     "nyc": "^10.1.2",
     "preact": "^7.2.0",
-    "preact-compat": "^3.13.1",
+    "preact-compat": "^3.16.0",
     "preact-render-to-string": "^3.6.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
