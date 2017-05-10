@@ -1,18 +1,10 @@
 # jsx-render-engine [![npm package][npm-badge]][npm-link]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/yeojz/jsx-render-engine.svg)](https://greenkeeper.io/)
-A pluggable jsx library agnostic render engine. (react, preact, react-router etc.)
+> A pluggable jsx library agnostic render engine. (react, preact, react-router etc.)
 
-[![Build Status][build-badge]][build-link]
+This package has been re-integrated as a sub-proejct of [metalsmith-react-templates](https://github.com/yeojz/metalsmith-react-templates)
 
-## About
-`jsx-render-engine` is a an in-place object manipulation engine to transform object content using a JSX library as template.
-
-It currently supports
-[React](https://facebook.github.io/react/),
-[Preact](https://www.npmjs.com/package/preact),
-[React Router](https://www.npmjs.com/package/react-router)
-as render strategies. You can also write your own rendering strategies.
+All releases will now correspond to a version release on the parent project.
 
 ## Installation
 
@@ -29,22 +21,6 @@ $ npm install react react-dom
 $ npm install preact preact-render-to-string
 ```
 
-## Object reference
-
-```js
-export default {
-  'home': {
-    title: 'test',
-    template: 'HomeTemplate.jsx',
-    content: 'markdown content'
-  }
-}
-```
-
-## Related Project
-
-This engine is used in [metalsmith-react-templates](https://github.com/yeojz/metalsmith-react-templates)
-
 ## License
 
 MIT [`License`](/LICENSE) © Gerald Yeo
@@ -52,5 +28,3 @@ MIT [`License`](/LICENSE) © Gerald Yeo
 [npm-badge]: https://img.shields.io/npm/v/jsx-render-engine.svg?style=flat-square
 [npm-link]: https://www.npmjs.com/package/jsx-render-engine.svg
 
-[build-badge]: https://img.shields.io/circleci/project/github/yeojz/jsx-render-engine.svg?style=flat-square
-[build-link]: https://circleci.com/gh/yeojz/jsx-render-engine.svg
